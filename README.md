@@ -1,7 +1,5 @@
-# New-AluraGeek-Challege
-
 <div align="center">
-    <h1>Challenge AluraGeek - 2024.</h1>
+    <h1>New AluraGeek-Challeng</h1>
 </div>
 
 ## Este é o repositório base do nosso projeto, nele voce encontrará uma página  HTML estrutura simples, um arquivo de estilos CSS e um de código Javascript.
@@ -32,7 +30,7 @@
     <img src="project/Desktop.png" width="200" height="100" hspace="15">
 </div>
 <div align="center">
-    <img src="project/Mobile.png" width="200" height="100" hspace="15">
+    <img src="project/Badge-AluraGeek.png" width="200" height="100" hspace="15">
 </div>
 <br><br>
 
