@@ -32,10 +32,6 @@
 <div align="center">
     <img src="project/Desktop.png" width="200" height="100" hspace="25">
 </div>
-<div align="center>
-     <img src="project/Mobile.png" width="100" height="200"
-     hspace="15">
-</div>
 <br><br>
 
 ### Tempo na Execução do Projeto:
