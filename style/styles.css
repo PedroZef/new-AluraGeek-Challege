@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: "IBM Plex Mono" sans-serif;
+}
+
+main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.header  {
+    background: #5300C8;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    height: 96px;
+    
+}
+
+header:hover {
+    background: #1903c6;
+    transition: all .4s;
+    cursor: pointer;
+}
+ 
+img {
+    max-width: 100%; /* Evita que a imagem ultrapasse o contêiner */
+    display: block; /* Remove espaços indesejados abaixo da imagem */
+    margin: 20px auto; /* Centraliza horizontalmente */
+ 
+}
+
+h1 {
+    display: flex;
+    font-family: "Press Start 2P";
+    margin-bottom: 24px;
+    justify-content: center;
+}
+
+p {
+    text-align: left;
+}
+
+/* Seção "Meus Produtos" */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+}
+
+.produtos-container {
+    max-width: 100%;
+    height: auto;
+  
+
+}
+
+.card {
+    background: #1903c6;
+    color: #ffffff;
+    width: 196px;
+    height: 258px;
+    border-radius: 10px;
+    gap: 10px;
+    border: 2px solid #000;
+    align-items: center;
+    top: 20px;
+    left: 20px;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    box-shadow: -12px 9px 5px -4px rgba(0, 0, 0, 0.39);
+}
+
+.card:hover {
+    background-color: #5300C8;
+    color: #ffffff;
+}
+
+
+.card p {
+    margin: 10px 10px;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    width: 176px;
+    height: 174px;
+    border-radius: 10px;
+    border: 2px;
+    gap: 8px;
+    margin-bottom: 5px;
+    border: 2px solid #000;
+}
+
+.meus-produtos h1,
+.produtos-container h1 {
+    font-size: 30px;
+    font-family: "Press Start 2P";
+    font-weight: 700;
+}
+
+.meus-produtos {
+    align-items: center;
+    text-align: center;
+}
+
+.produtos {
+    display: grid;
+    width: 678px;
+    height: auto;
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.3);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px 0px;
+    padding: 20px;
+    overflow: auto;
+    gap: 25px;
+    padding-top: 40px;
+    box-shadow: -12px 9px 5px -4px rgba(0, 0, 0, 0.39);
+}
+
+.produtos img {
+    align-items: center;
+    width: 176px;
+    height: 174px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-container--value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.card-container--value img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lixo {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.lixo:hover {
+    background-color: #e50b36;
+    color: #ffffff;
+}
+
+/* Seção "Adicionar Produtos" */
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+.button-group {
+    flex: 0; /* Não cresce, mantém o tamanho mínimo */
+}
+
+input {
+    color: #03318c;
+    font-family: "IBM Plex Mono";
+    font-weight: 700;
+    border-radius: 40px;
+    width: 400px;
+    height: 70px;
+    border: 2px solid #03318c;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+
+button {
+    color: #03318c;
+    font-family: "IBM Plex Mono";
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    width: 196px;
+    height: 60px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #03318c;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.input-group ::placeholder,
+.button-group ::placeholder,
+input {
+    justify-content: center;
+    color: #03318c;
+}
+
+.adicionar-produtos {
+    padding-left: 50px;
+}
+
+.guardar {
+    background-color: #03318c;
+    color: #fff;
+    border: 2px solid #03318c;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
+}
+
+.guardar:hover {
+    background-color: #ffffff;
+    color: #1903c6;
+    border: 2px solid #1903c6;
+}
+
+.limpar {
+    align-items: center;
+    background-color: #ffffff;
+    color: #1903c6;
+    border: 2px solid #03318c;
+    cursor: pointer;
+    text-align: center;
+}
+
+#form-produto {
+    max-width: 1110px;
+    margin: 0 auto; 
+}
+
+#form-produto button {
+    align-items: center;
+    cursor: pointer;
+}
+
+.rodape {
+    justify-content: center;
+    flex-direction: column;
+    background: #1903c6;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: 232px;
+
+
+}
+
+footer p,
+a {
+    color: #fff;
+    text-align: center;
+    line-height: 2;
+    text-decoration: none;
+
+}
+
+@media only screen and (max-width: 1110px) {
+
+    header,
+    footer {
+        width: auto;
+    }
+
+    .container {
+        display: flex;
+        width: auto;
+        align-items: center;
+        overflow: auto;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .produtos {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+        text-align: center;
+        width: auto;
+
+    }
+
+    #form-produto {
+        padding-bottom: 10px;
+        width: Fixed (470px);
+    
+        opacity: 0px;
+    }
+
+   input {
+        align-items: center;    
+        width: 470px; 
+    }
+
+    .guardar, .limpar {
+        align-items: center;
+        width: 234px;
+    }
+
+}
+
+@media (min-width: 430px) and (max-width: 827px) {
+    .container {
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+    }
+
+    .produtos {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        height: 100vh;
+        gap: 16px;
+        text-align: center;
+    }
+
+    #form-produto {
+        align-items: center;
+        display: block;
+        padding-bottom: 50px;
+        width: auto;
+        text-align: center;
+    }
+
+    input {
+        align-items: center;    
+        width: 440px; 
+    }
+
+    header,
+    footer {
+        width: 480px;
+        align-items: center;
+    }
+
+    .guardar, .limpar {
+        align-items: center;
+        width: 210px;
+    }
+}
