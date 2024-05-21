@@ -160,7 +160,8 @@ p {
     cursor: pointer;
 }
 
-.lixo:hover {
+.lixo:hover,
+.editar:hover {
     background-color: #e50b36;
     color: #ffffff;
 }
