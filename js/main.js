@@ -19,7 +19,7 @@ let produtos = [
     },
     {
         id: 3,
-        imagem: "img/GameBoy.png",
+        imagem: "img/Game Boy Classic.png",
         produto: "Game Boy Classic",
         valor: 60.0,
     },
@@ -114,6 +114,25 @@ function deleteProduto(id) {
 
 // Função para atualizar um produto
 function updateProduto(id) {
+    const produto = produtos.find((produto) => produto.id === id);
+    if (produto) {
+        const nome = prompt("Novo nome do produto:");
+        const valor = parseFloat(prompt("Novo valor do produto:"));
+        const imagem = prompt("Nova imagem do produto:");
+        if (nome && valor && imagem) {
+            produto.produto = nome;
+            produto.valor = valor;
+            produto.imagem = imagem;
+            lerProdutos();
+            alert("Produto atualizado com sucesso!");
+        } else {
+            alert("Produto não encontrado!");
+        }
+    }
+}
+
+// Função para editar um produto
+function editProduto(id) {
     const produto = produtos.find((produto) => produto.id === id);
     if (produto) {
         const nome = prompt("Novo nome do produto:");
