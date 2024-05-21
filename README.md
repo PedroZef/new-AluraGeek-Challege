@@ -6,9 +6,9 @@
 
 ## Este é o repositório base do nosso projeto, nele voce encontrará uma página  HTML estrutura simples, um arquivo de estilos CSS e um de código Javascript.
 
-- Onde podemos fazer um CRUD(Create, Read, Update e Delete) simples usando JavaScript puro.  
+- Onde podemos fazer um CRUD(Create, Read, Update, Delete Editar) simples usando JavaScript puro.  
 
-- Com arquivo estlio json junto o main.js junto e local
+- Com arquivo estlio json junto com main.js junto e local
 
 - Onde você pode  ver o projeto: [aqui](https://pedrozef.github.io/new-AluraGeek-Challege/)
 
@@ -31,13 +31,11 @@
 <div align="center">
     <img src="project/Desktop.png" width="200" height="100" hspace="15">
 </div>
-<div align="center">
-    <img src="project/Mobile.png" width="200" height="100" hspace="15">
-</div>
+
 <br><br>
 
 ### Tempo na Execução do Projeto:
 <div align="center">
-    <img src="https://img.shields.io/badge/IN%C3%8DCIO-15%2F05%2F2024-green" hspace="10"/>
-    <img src="https://img.shields.io/badge/T%C3%89RMINO-21%2F05%2F2024-red" hspace="10"/>
+    <img src="https://img.shields.io/badge/IN%C3%8DCIO-15%2F05%2F2024-green" hspace="12"/>
+    <img src="https://img.shields.io/badge/T%C3%89RMINO-21%2F05%2F2024-red" hspace="12"/>
 </div>
