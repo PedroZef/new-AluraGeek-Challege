@@ -4,7 +4,11 @@
     <h1>Challenge AluraGeek - 2024.</h1>
 </div>
 
-## Este é o repositório base do nosso projeto, nele voce encontrará uma página  HTML estrutura simples, um arquivo de estilos CSS e um de código Javascript
+## Este é o repositório base do nosso projeto, nele voce encontrará uma página  HTML estrutura simples, um arquivo de estilos CSS e um de código Javascript.
+
+- Onde podemos fazer um CRUD(Create, Read, Update e Delete) simples usando JavaScript puro.  
+
+- Com arquivo estlio json junto o main.js junto e local
 
 - Onde você pode  ver o projeto: [aqui](https://pedrozef.github.io/new-AluraGeek-Challege/)
 
@@ -20,17 +24,15 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" hspace="10">  
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" hspace="12">
 </div>
-
-<br><br>
-<div align="center">
-    <img src="project/Desktop.png" width="300" height="150" hspace="25">
-</div>
 <br><br>
 
 ## Designer do Figma:
 <br><br>
 <div align="center">
-    <img src="project/Desktop.png" width="200" height="100" hspace="25">
+    <img src="project/Desktop.png" width="200" height="100" hspace="15">
+</div>
+<div align="center">
+    <img src="project/Mobile.png" width="200" height="100" hspace="15">
 </div>
 <br><br>
 
