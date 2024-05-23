@@ -6,7 +6,7 @@
 
 - Onde podemos fazer um CRUD(Create, Read, Update, Delete Editar) simples usando JavaScript puro.  
 
-- Com arquivo estlio json junto com main.js junto e local
+- Com arquivo estlio json junto com main.js busca em API Mockada 
 
 - Onde você pode  ver o projeto: [aqui](https://pedrozef.github.io/new-AluraGeek-Challege/)
 
@@ -27,10 +27,9 @@
 ## Designer do Figma:
 <br><br>
 <div align="center">
-    <img src="project/Desktop.png" width="200" height="100" hspace="15">
-</div>
-<div align="center">
-    <img src="project/Mobile.png" width="200" height="100" hspace="15">
+    <img src="project/Desktop.png" width="200" height="100" hspace="25">
+    <br><br>
+     <img src="project/Badge-AluraGeek.png" width="200" height="100" hspace="25">
 </div>
 <br><br>
 

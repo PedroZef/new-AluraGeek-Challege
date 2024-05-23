@@ -1,61 +1,61 @@
 let produtos = [
     {
         id: 0,
-        imagem: "img/Stormtrooper.png",
-        produto: "Stormtrooper 1 ",
+        imagem: "https://loremflickr.com/640/480",
+        produto: "Gato 1 ",
         valor: 60.0,
     },
     {
         id: 1,
-        imagem: "img/R2d2.png",
-        produto: "R2D2",
+        imagem: "https://loremflickr.com/640/480",
+        produto: "Gato 2",
         valor: 80.0,
     },
     {
         id: 2,
-        imagem: "img/Card duplo.png",
-        produto: "Stormtrooper e Gameboy ",
+        imagem: "https://loremflickr.com/640/480",
+        produto: "Gato 2 ",
         valor: 120.0,
     },
     {
         id: 3,
-        imagem: "img/Game Boy Classic.png",
-        produto: "Game Boy Classic",
+        imagem: "https://loremflickr.com/640/480",
+        produto: "Gato 3",
         valor: 60.0,
     },
     {
         id: 4,
-        imagem: "img/Darth.png",
-        produto: "Darth Vader",
+        imagem: "https://loremflickr.com/640/480",
+        produto: "Gato 4",
         valor: 90.0,
     },
     {
         id: 5,
-        imagem: "img/Stormtrooper.png",
-        produto: "Stormtrooper ",
+        imagem: "https://loremflickr.com/640/480",
+        produto: "Gato 5 ",
         valor: 60.0,
     },
     {
         id: 6,
-        imagem: "img/Stormtrooper.png",
-        produto: "Stormtrooper ",
+        imagem: "https://loremflickr.com/640/480",
+        produto: "Gato 6 ",
         valor: 60.0,
     },
     {
         id: 7,
-        imagem: "img/Card duplo.png",
-        produto: "Stormtrooper e Gameboy ",
+        imagem: "https://loremflickr.com/640/480",
+        produto: "Gato 7 ",
         valor: 120.0,
     },
     {
         id: 8,
-        imagem: "img/Game Boy Classic.png",
-        produto: "Game Boy Classic", 
+        imagem: "https://loremflickr.com/640/480",
+        produto: "Gato 8", 
         valor: 60.0,
     },
 ];
 
-// Função para ler os produtos
+
 function lerProdutos() {
     const cards = document.getElementById("cards");
     cards.innerHTML = "";
@@ -69,7 +69,7 @@ function lerProdutos() {
                 <div class="card-container--value">
                     <p>R$ ${produto.valor.toFixed(2)}</p>
                     <img class="lixo" src="img/lixo.png" alt="Ícone do Lixo" onclick="deleteProduto(${produto.id})">
-                    <img class="editar" src="img/lapis.png" alt="Ícone de Edição" onclick="updateProduto(${produto.id})">
+                    <img class="editar" src="img/editar.png" alt="Ícone de Edição" onclick="updateProduto(${produto.id})">
                 </div>
             </div>
         `;
@@ -114,25 +114,6 @@ function deleteProduto(id) {
 
 // Função para atualizar um produto
 function updateProduto(id) {
-    const produto = produtos.find((produto) => produto.id === id);
-    if (produto) {
-        const nome = prompt("Novo nome do produto:");
-        const valor = parseFloat(prompt("Novo valor do produto:"));
-        const imagem = prompt("Nova imagem do produto:");
-        if (nome && valor && imagem) {
-            produto.produto = nome;
-            produto.valor = valor;
-            produto.imagem = imagem;
-            lerProdutos();
-            alert("Produto atualizado com sucesso!");
-        } else {
-            alert("Produto não encontrado!");
-        }
-    }
-}
-
-// Função para editar um produto
-function editProduto(id) {
     const produto = produtos.find((produto) => produto.id === id);
     if (produto) {
         const nome = prompt("Novo nome do produto:");
